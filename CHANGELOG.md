@@ -1,45 +1,5 @@
 #Changelog
 
-###2.0.2
-- Fixed [#111](https://github.com/adamgruber/mochawesome/issues/111)
-
-###2.0.1
-- Fixed an issue where `reportFilename` was not propagated to `config` object
-- Updated handling of `reportDir` option to allow relative paths
-- Bumped mochawesome-report-generator dependency (requires 1.0.3 or higher)
-
-###2.0.0
-- Moved report generation to mochawesome-report package
-- Updated dependencies
-- Switched from jshint to eslint
-- Rewritten using ES6
-- Fixed an issue where test uuid was not generated properly
-- Added `done` function that will get called before mocha exits (eliminates need for `--no-exit` option)
-- Unit tests!
-- Added diff for test error
-- Added ability to display additional test context
-
-**Breaking Changes**
-- `reportName` option changed to `reportFilename`
-
-###1.5.4
-- Run pending tests thru `cleanTest` function. Fixes possible scenario where a pending test with a large amount of text could cause node to run out of memory. See [#94](https://github.com/adamgruber/mochawesome/issues/94)
-
-###1.5.3
-- Fixed build issues on Windows. See [#84](https://github.com/adamgruber/mochawesome/pull/84)
-
-###1.5.2
-- Updated mocha peerDependency to allow any version
-
-###1.5.1
-- Added missing LICENSE.md file
-
-###1.5.0
-- Moved mocha to peerDependencies and devDependencies and fixed it to `~2`. See [#69](https://github.com/adamgruber/mochawesome/issues/69)
-
-###1.4.0
-- Added slide-over navigation menu for quickly jumping to a test suite. See [#49](https://github.com/adamgruber/mochawesome/issues/49)
-
 ###1.3.5
 - Removed extra slash in `@font-path` LESS variable. See [#53](https://github.com/adamgruber/mochawesome/issues/53)
 
@@ -83,6 +43,7 @@
 
 ###1.0.1 - 1.0.5
 - Bugfixes
+
 
 ###1.0.0
 - Redesigned report
